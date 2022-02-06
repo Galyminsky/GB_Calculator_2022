@@ -8,228 +8,162 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_reset"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="198dp"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/c"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:circularflow_radiusInDP="16dp"
-        app:cornerRadius="35dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_plus"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_6"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/_6"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_5"
         app:layout_constraintStart_toStartOf="@+id/btn_9"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_1"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/_1"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_2"
         app:layout_constraintStart_toStartOf="@+id/btn_multi"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_4"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/_4"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_5"
         app:layout_constraintStart_toStartOf="@+id/btn_7"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_5"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/_5"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintStart_toEndOf="@+id/btn_7"
         app:layout_constraintTop_toBottomOf="@+id/btn_9"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_3"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/_3"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_2"
         app:layout_constraintStart_toStartOf="@+id/btn_6"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_multi"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/btn_multi"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="16dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_division"
         app:layout_constraintEnd_toStartOf="@+id/btn_equal"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_8"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/_8"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintStart_toEndOf="@+id/btn_reset"
         app:layout_constraintTop_toBottomOf="@+id/btn_minus"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_7"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/_7"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_8"
         app:layout_constraintStart_toStartOf="@+id/btn_reset"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_zero"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/_0"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_division"
         app:layout_constraintStart_toStartOf="@+id/btn_3"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_division"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/btn_dev"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintStart_toStartOf="@+id/btn_equal"
         app:layout_constraintTop_toBottomOf="@+id/btn_3"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_equal"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/equal"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintEnd_toStartOf="@+id/btn_zero"
         app:layout_constraintTop_toBottomOf="@+id/btn_zero"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_plus"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/btn_plus"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintStart_toEndOf="@+id/btn_reset"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_minus"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/btn_min"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_plus"
         app:layout_constraintStart_toEndOf="@+id/btn_plus"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_9"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/_9"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_8"
         app:layout_constraintStart_toStartOf="@+id/btn_minus"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_2"
+        style="@style/Landscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/caesar_dressing"
         android:text="@string/_2"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:backgroundTint="#000000"
-        app:cornerRadius="35dp"
         app:layout_constraintStart_toStartOf="@+id/btn_5"
         app:layout_constraintTop_toBottomOf="@+id/btn_6"
         tools:ignore="MissingConstraints" />
