@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="galyminsky_homework_1">Galyminsky HomeWork_1!</string>
-    <string name="tvresult">tvResult</string>
+    <string name="tvresult"></string>
     <string name="btn_min">-</string>
     <string name="equal">=</string>
     <string name="_1">1</string>

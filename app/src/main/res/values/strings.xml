@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">GB_Calculator_2022</string>
     <string name="galyminsky_homework_1">Galyminsky HomeWork_1!</string>
-    <string name="tvresult">01+23-456/7*8=9</string>
+    <string name="tvresult"></string>
     <string name="btn_min">-</string>
     <string name="equal">=</string>
     <string name="_1">1</string>
