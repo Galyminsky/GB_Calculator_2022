@@ -42,36 +42,27 @@ public class MainActivity extends AppCompatActivity {
 
         calculator = new CalculatorModel();
 
-        View.OnClickListener numberButtonClickListener = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                calculator.onNumPressed(view.getId());
-                tvResult.setText(calculator.getText());
-            }
+        View.OnClickListener numberButtonClickListener = view -> {
+            calculator.onNumPressed(view.getId());
+            tvResult.setText(calculator.getText());
         };
 
-        View.OnClickListener actionButtonOnclickListener = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                calculator.onActionPressed(view.getId());
-                tvResult.setText(calculator.getText());
-            }
+        View.OnClickListener actionButtonOnclickListener = view -> {
+            calculator.onActionPressed(view.getId());
+            tvResult.setText(calculator.getText());
         };
 
-        for (int i = 0; i < numberIds.length; i++) {
-            findViewById(numberIds[i]).setOnClickListener(numberButtonClickListener);
+        for (int numberId : numberIds) {
+            findViewById(numberId).setOnClickListener(numberButtonClickListener);
         }
 
-        for (int i = 0; i < actionsIds.length; i++) {
-            findViewById(actionsIds[i]).setOnClickListener(actionButtonOnclickListener);
+        for (int actionsId : actionsIds) {
+            findViewById(actionsId).setOnClickListener(actionButtonOnclickListener);
         }
 
-        findViewById(R.id.btn_reset).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                calculator.reset();
-                tvResult.setText(calculator.getText());
-            }
+        findViewById(R.id.btn_reset).setOnClickListener(view -> {
+            calculator.reset();
+            tvResult.setText(calculator.getText());
         });
     }
 
