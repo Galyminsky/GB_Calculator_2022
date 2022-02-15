@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffe_2">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_reset"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="198dp"
+        android:text="@string/c"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_plus"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_6"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_6"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_5"
+        app:layout_constraintStart_toStartOf="@+id/btn_9"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_1"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_2"
+        app:layout_constraintStart_toStartOf="@+id/btn_multi"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_4"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_5"
+        app:layout_constraintStart_toStartOf="@+id/btn_7"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_5"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_5"
+        app:layout_constraintStart_toEndOf="@+id/btn_7"
+        app:layout_constraintTop_toBottomOf="@+id/btn_9"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_3"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_2"
+        app:layout_constraintStart_toStartOf="@+id/btn_6"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_multi"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_multi"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_division"
+        app:layout_constraintEnd_toStartOf="@+id/btn_equal"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_8"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_8"
+        app:layout_constraintStart_toEndOf="@+id/btn_reset"
+        app:layout_constraintTop_toBottomOf="@+id/btn_minus"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_7"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_7"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_8"
+        app:layout_constraintStart_toStartOf="@+id/btn_reset"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_zero"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_division"
+        app:layout_constraintStart_toStartOf="@+id/btn_3"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_division"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_dev"
+        app:layout_constraintStart_toStartOf="@+id/btn_equal"
+        app:layout_constraintTop_toBottomOf="@+id/btn_3"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_equal"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equal"
+        app:layout_constraintEnd_toStartOf="@+id/btn_zero"
+        app:layout_constraintTop_toBottomOf="@+id/btn_zero"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_plus"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/btn_plus"
+        app:layout_constraintStart_toEndOf="@+id/btn_reset"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_minus"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_min"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_plus"
+        app:layout_constraintStart_toEndOf="@+id/btn_plus"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_9"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_9"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_8"
+        app:layout_constraintStart_toStartOf="@+id/btn_minus"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_2"
+        style="@style/Landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_2"
+        app:layout_constraintStart_toStartOf="@+id/btn_5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/galyminsky_homework_1"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/tvresult"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvMain"
+        app:layout_constraintStart_toStartOf="@+id/tvMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
