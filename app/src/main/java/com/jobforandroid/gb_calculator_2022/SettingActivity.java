@@ -19,7 +19,6 @@ public class SettingActivity extends BaseActivity {
 
     }
 
-    // Инициализация радиокнопок
     private void initThemeChooser() {
         initRadioButton(findViewById(R.id.rd_my_theme),
                 Portrait);
@@ -29,18 +28,15 @@ public class SettingActivity extends BaseActivity {
                 OrangeThemeStyle);
         initRadioButton(findViewById(R.id.rd_purple_theme),
                 PurpleThemeStyle);
-        RadioGroup rg = findViewById(R.id.radio_group);
-        ((MaterialRadioButton)rg.getChildAt(getCodeStyle(Portrait))).setChecked(true);
+       /* RadioGroup rg = findViewById(R.id.radio_group);
+        ((MaterialRadioButton)rg.getChildAt(getCodeStyle(Portrait))).setChecked(true);*/
     }
 
-    // Все инициализации кнопок очень похожи, поэтому создадим метод для переиспользования
     private void initRadioButton(View button, final int codeStyle){
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // сохраним настройки
                 setAppTheme(codeStyle);
-                // пересоздадим активити, чтобы тема применилась
                 recreate();
             }
         });

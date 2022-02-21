@@ -4,42 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
     tools:context=".SettingActivity">
 
-    <RadioGroup
-        android:id="@+id/radio_group"
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/rd_my_theme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/my_theme"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/rd_orange_theme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/theme_orange"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/rd_green_theme" />
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/rd_purple_theme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/theme_purple"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/rd_orange_theme" />
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/rd_green_theme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/theme_green"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/rd_my_theme" />
+
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="200dp"
+        android:text="Theme Calculaotr"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <com.google.android.material.radiobutton.MaterialRadioButton
-            android:id="@+id/rd_my_theme"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/my_theme" />
-
-        <com.google.android.material.radiobutton.MaterialRadioButton
-            android:id="@+id/rd_green_theme"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/theme_green" />
-
-        <com.google.android.material.radiobutton.MaterialRadioButton
-            android:id="@+id/rd_orange_theme"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/theme_orange" />
-
-        <com.google.android.material.radiobutton.MaterialRadioButton
-            android:id="@+id/rd_purple_theme"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/theme_purple" />
-
-    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

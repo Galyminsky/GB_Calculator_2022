@@ -22,17 +22,17 @@
     </style>
 
     <style name="ThemeGreen" parent="Theme.GB_Calculator_2022">
-        <item name="colorPrimary">#8fff1f</item>
-        <item name="colorPrimaryDark">#60ba00</item>
-        <item name="colorAccent">#c2ff90</item>
-        <item name="android:background">@color/green_back</item>
+        <item name="colorPrimary">#BBD6A0</item>
+        <item name="colorPrimaryDark">#28430B</item>
+        <item name="colorAccent">#7BF417</item>
+        <item name="android:background">#8BBC5B</item>
     </style>
 
     <style name="ThemeOrange" parent="Theme.GB_Calculator_2022" >
-        <item name="colorPrimary">#ffd11c</item>
+        <item name="colorPrimary">#BDA546</item>
         <item name="colorPrimaryDark">#ff8e00</item>
-        <item name="colorAccent">#ffff57</item>
-        <item name="android:background">@color/orange_back</item>
+        <item name="colorAccent">#FFFF00</item>
+        <item name="android:background">#876E0E</item>
 
     </style>
 
@@ -40,7 +40,7 @@
         <item name="colorPrimary">#b574ff</item>
         <item name="colorPrimaryDark">#7304f0</item>
         <item name="colorAccent">#cb9fff</item>
-        <item name="android:background">@color/purple_back</item>
+        <item name="android:background">#A170D8</item>
 
 
     </style>
