@@ -3,11 +3,8 @@ package com.jobforandroid.gb_calculator_2022;
 public class CalculatorModel {
     private int firstArg;
     private int secondArg;
-
     private StringBuilder inputStr = new StringBuilder();
-
     private int actionSelected;
-
     private State state;
 
     private enum State {

@@ -1,10 +1,14 @@
 package com.jobforandroid.gb_calculator_2022;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        int[] numberIds = new int[] {
+
+        int[] numberIds = new int[]{
                 R.id.btn_zero,
                 R.id.btn_1,
                 R.id.btn_2,
@@ -30,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 R.id.btn_9
         };
 
-        int[] actionsIds = new int[] {
+        int[] actionsIds = new int[]{
                 R.id.btn_plus,
                 R.id.btn_minus,
                 R.id.btn_multi,
@@ -64,6 +69,16 @@ public class MainActivity extends AppCompatActivity {
             calculator.reset();
             tvResult.setText(calculator.getText());
         });
+
+    }
+
+   public void onClickSetting (View view) {
+       switch (view.getId()) {
+           case R.id.btn_setting:
+               Intent intent = new Intent(this, SettingActivity.class);
+               startActivity(intent);
+               break;
+       }
     }
 
 }

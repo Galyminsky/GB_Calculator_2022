@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Lisander/AndroidStudioProjects/GB_Calculator_2022/app/src/main/res/layout-land/activity_main.xml" value="0.24669603524229075" />
-        <entry key="..\:/Users/Lisander/AndroidStudioProjects/GB_Calculator_2022/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Lisander/AndroidStudioProjects/GB_Calculator_2022/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Lisander/AndroidStudioProjects/GB_Calculator_2022/app/src/main/res/layout/activity_setting.xml" value="0.33" />
+        <entry key="..\:/Users/Lisander/AndroidStudioProjects/GB_Calculator_2022/app/src/main/res/layout/activity_theme.xml" value="0.33" />
       </map>
     </option>
   </component>

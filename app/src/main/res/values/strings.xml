@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">GB_Calculator_2022</string>
-    <string name="galyminsky_homework_1">Galyminsky HomeWork_1!</string>
+    <string name="galyminsky_homework_3">Galyminsky HomeWork_3!</string>
     <string name="tvresult"></string>
     <string name="btn_min">-</string>
     <string name="equal">=</string>
@@ -18,4 +18,10 @@
     <string name="c">C</string>
     <string name="btn_plus">+</string>
     <string name="btn_multi">*</string>
+    <string name="my_theme">My Theme</string>
+    <string name="theme_green">Theme Green</string>
+    <string name="theme_orange">Theme Orange</string>
+    <string name="theme_purple">Theme Purple</string>
+
+
 </resources>
